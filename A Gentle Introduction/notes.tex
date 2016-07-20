@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\usepackage{tgtermes}
+
+\usepackage[
+pdftitle={Quantum Computing -- A Gentle Introduction}, 
+pdfauthor={Quick Notes by Aaron Vontell, MIT},
+colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue,bookmarks=true,
+bookmarksopenlevel=2]{hyperref}
+\usepackage{amsmath,amssymb,amsthm,textcomp}
+\usepackage{enumerate}
+\usepackage{multicol}
+\usepackage{tikz}
+
+\usepackage{geometry}
+\geometry{total={210mm,297mm},
+left=25mm,right=25mm,%
+bindingoffset=0mm, top=20mm,bottom=20mm}
+
+
+\linespread{1.3}
+
+\newcommand{\linia}{\rule{\linewidth}{0.5pt}}
+
+% custom theorems if needed
+\newtheoremstyle{mytheor}
+    {1ex}{1ex}{\normalfont}{0pt}{\scshape}{.}{1ex}
+    {{\thmname{#1 }}{\thmnumber{#2}}{\thmnote{ (#3)}}}
+
+\theoremstyle{mytheor}
+\newtheorem{defi}{Definition}
+
+% my own titles
+\makeatletter
+\renewcommand{\maketitle}{
+\begin{center}
+\vspace{2ex}
+{\huge \textsc{\@title}}
+\vspace{1ex}
+\\
+by Eleanor Rieffel and Wolfgang Polak\\
+\linia\\
+\@author \hfill \@date
+\vspace{4ex}
+\end{center}
+}
+\makeatother
+%%%
+
+% custom footers and headers
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{}
+\rfoot{Page \thepage\ /\ \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+%
+
+%%%----------%%%----------%%%----------%%%----------%%%
+
+\begin{document}
+
+\title{Quantum Computing -- A Gentle Introduction}
+
+\author{Quick Notes by Aaron Vontell, MIT EECS}
+
+\date{07/19/2016}
+
+\maketitle
+
+\section{Single-Qubit Quantum Systems}
+
+\subsection{Single Quantum Bits}
+
+\begin{defi}
+A \textbf{basis} is a set of vectors for which every element in our space $V$ can be written \textit{uniquely} as a linear combination of these vectors.
+\end{defi}
+In quantum mechanics, bases are usually required to be orthonormal. Additionally, we define the \textit{standard basis} to be \(\{|0\rangle, |1\rangle\}\).
+\\A \textit{ket} \(|v\rangle = a|0\rangle + b|1\rangle\) may be written as $\begin{pmatrix}a\\ b\end{pmatrix}$, while a \textit{bra} \(\langle v|\) can be written as $\begin{pmatrix}a & b\end{pmatrix}$.
+\\When we wish to measure a qubit, we mean that we want to measure the qubit with respect to a given basis.
+\\
+\subsection{The State Space of a Single Qubit System}
+
+\begin{defi}
+The \textbf{state space} of a classical or quantum physical system is the set of all possible states of the system, i.e. the set of possible qubit values. Do not be fooled by states that are written differently, but are actually the same state!
+\end{defi}
+
+\begin{defi}
+The \textbf{global phase} is the multiple by which two vectors represent the same quantum state, and has no physical meaning, where \(|v\rangle = c|v'\rangle\) for some \(c=e^{i\phi}\).
+\end{defi}
+
+\begin{defi}
+The \textbf{relative phase} of a single qubit system \(a|0\rangle + b|1\rangle\) is a measure of the angle between the two complex numbers $a$ and $b$ in the complex plane. Same magnitude but different relative phase \= different states.
+\end{defi}
+
+These states may be visualized in two ways, using either the \textbf{Extended Complex Plane}, or with the \textbf{Bloch Sphere}. See the \textit{bloch\_sphere.png} image in the images folder for an example. Also note that all quantum states can be represented by a wave function, or a solution to the Schr\"odinger Wave Equation.
+
+\textbf{Important single-qubit states}
+
+$$|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$$
+$$|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$$
+$$|i\rangle = \frac{1}{\sqrt{2}}(|0\rangle + i|1\rangle)$$
+$$|-i\rangle = \frac{1}{\sqrt{2}}(|0\rangle - i|1\rangle)$$
+
+\subsection{Chapter Exercises}
+
+\paragraph{Problem 1}
+Given a polaroid A with polarization $|v_A\rangle = |\rightarrow\rangle$, B with polarization $|v_B\rangle = \cos\theta|\rightarrow\rangle + \sin\theta|\uparrow\rangle$, and C with polarization $|v_C\rangle = |\uparrow\rangle$, the percentage of photons that make it through $A \rightarrow B \rightarrow C \rightarrow$ is given by ...
+
+\end{document}
