@@ -116,4 +116,15 @@ $$|-i\rangle = \frac{1}{\sqrt{2}}(|0\rangle - i|1\rangle)$$
 \paragraph{Problem 1}
 Given a polaroid A with polarization $|v_A\rangle = |\rightarrow\rangle$, B with polarization $|v_B\rangle = \cos\theta|\rightarrow\rangle + \sin\theta|\uparrow\rangle$, and C with polarization $|v_C\rangle = |\uparrow\rangle$, the percentage of photons that make it through $A \rightarrow B \rightarrow C \rightarrow$ can be found in the following way. Choosing $\{|\rightarrow\rangle, |\uparrow\rangle\}$ as our basis, we start with $\frac{1}{2}$ in state $|\rightarrow\rangle$ and $\frac{1}{2}$ in state $|\uparrow\rangle$, since we are given that the photons are emitted with random polarization. Since the polarization of polaroid $A$ is $|\rightarrow \rangle$, we have that $\frac{1}{2}$ of the photons pass through, and are all now in the state $|\rightarrow \rangle$. Coming upon polaroid $B$, we have that the polaroid allows $\cos^2$ percent of the photons to pass through that are in state $|\rightarrow \rangle$, and $\sin^2$ percent of the photons that are in state $|\uparrow \rangle$ to pass through (which we can ignore since none are in this state before hitting $B$). This means that $\frac{1}{2}\cos^2$ percent of the original photons make it through $B$, all of which are now in state $|v\rangle$. Finally, polaroid $C$ lets through 100\% of the photons that are in state $|\uparrow \rangle$. Since $\sin^2$ percent of the photons that came through $B$ are in the state $|\uparrow \rangle$, $C$ allows $\sin^2$ percent of the $\frac{1}{2}\cos^2$ that came through $B$ to pass through. This gives us our final result, that $\frac{1}{2}\cos^2\sin^2$ of the original protons hit the screen after $C$.
 
+\paragraph{Problem 2} Do the following pairs of quantum states represent the same state?
+\begin{enumerate}[a)] % a), b), c), ...
+\item $|0\rangle$ and $-|0\rangle \rightarrow$ Yes, differ by a global phase of $-1$.
+\item $|1\rangle$ and $i|1\rangle \rightarrow$ Yes, differ by a global phase of $i$.
+\item $\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $\frac{1}{\sqrt{2}}(-|0\rangle + i|1\rangle) \rightarrow$ No,there is no common factor that can be pulled out as a global phase
+\item $\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle) \rightarrow$ No (In fact, this is the Hadamard basis, where $|+\rangle$ and $|-\rangle$ are not the same state)
+\item $\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$ and $\frac{1}{\sqrt{2}}(|1\rangle - |0\rangle) \rightarrow$ Yes, differ by a global phase of $-1$
+\item $\frac{1}{\sqrt{2}}(|0\rangle + i|1\rangle)$ and $\frac{1}{\sqrt{2}}(i|1\rangle - |0\rangle) \rightarrow$ No, there is no common factor that can be used as a global phase
+\item $\frac{1}{\sqrt{2}}(|+\rangle + |-\rangle)$ and $|0\rangle \rightarrow$ Yes, differ by a global phase of $\frac{1}{2}$ (convert to standard basis!)
+\end{enumerate}
+
 \end{document}
