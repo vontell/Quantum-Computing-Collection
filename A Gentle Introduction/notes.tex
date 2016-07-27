@@ -158,4 +158,17 @@ Given a polaroid A with polarization $|v_A\rangle = |\rightarrow\rangle$, B with
 \item $|+\rangle$ wrt. $\{\frac{1}{2}|0\rangle + \frac{\sqrt{3}}{2}|1\rangle,\frac{\sqrt{3}}{2}|0\rangle - \frac{1}{2}|1\rangle\} \rightarrow$ This problem is best solved by calculating the projection of the state onto the measurement basis. For the first component of the basis ($\frac{1}{2}|0\rangle + \frac{\sqrt{3}}{2}|1\rangle$), using the dot product, we obtain a vector of magnitude $\frac{1}{2\sqrt{2}} + \frac{\sqrt{3}}{2\sqrt{2}}$ onto that component. For the second component of the basis ($\frac{\sqrt{3}}{2}|0\rangle - \frac{1}{2}|1\rangle$), using the dot product, we obtain a vector of magnitude $\frac{\sqrt{3}}{2\sqrt{2}} - \frac{1}{2\sqrt{2}}$ onto that component. This gives us our final probabilities, a 93.3...\% of measuring $\frac{1}{2}|0\rangle + \frac{\sqrt{3}}{2}|1\rangle$, and 6.6...\% of measuring $\frac{\sqrt{3}}{2}|0\rangle - \frac{1}{2}|1\rangle$.
 \end{enumerate}
 
+\paragraph{Problem 7} For each state, describe all orthonormal bases that include that state.
+\begin{enumerate}[a)] % a), b), c), ...
+\item $\frac{1}{\sqrt{2}}(|0\rangle + i|1\rangle) \rightarrow$
+\item $\frac{1+i}{2}|0\rangle - \frac{1-i}{2}|1\rangle \rightarrow$
+\item $\frac{1}{\sqrt{2}}(|0\rangle + e^{i\pi/6}|1\rangle) \rightarrow$
+\item $\frac{1}{2}|+\rangle - \frac{i\sqrt{3}}{2}|-\rangle \rightarrow$
+\end{enumerate}
+
+\paragraph{Problem 8} Alice is confused. She understands that $|1\rangle$ and $-|1\rangle$ represent the same state. But she does not understand why that does not imply that $\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$ would be the same state. Can you help her out?\\
+In the first case, the two states differ only by a global phase, and since the global phase has no physical meaning, the states are indistinguishable in nature and are equivalent. However, in the second case, the two states differ by a \textit{relative phase}, meaning that the two states would have different angles when represented in the complex plane, and as such are therefore indistinguishable. This relative phase is what causes $\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$ to be different states.
+
+\paragraph{Problem 9} In the BB84 protocol, how many bits do Alice and Bob need to compare to have a 90\% chance of detecting Eve's presence?
+
 \end{document}
