@@ -172,4 +172,21 @@ In the first case, the two states differ only by a global phase, and since the g
 \paragraph{Problem 9} In the BB84 protocol, how many bits do Alice and Bob need to compare to have a 90\% chance of detecting Eve's presence?\\
 For each bit that Alice and Bob compare, there is a 75\% chance that they do not see a wrong bit. They want to get the probability of seeing these matching bits given Eve eavesdropped to less than 10\%. Therefore, we have $0.75^x<0.10$, where $x$ is the number of bits to compare, leaving a final solution of about $8.00392$ bits needed to detect Eve's presence with 90\% confidence (so in practice, $9$ bits).
 
+\section{Multi-Qubit Systems}
+
+Unlike classical systems, the state space of a quantum system grows exponentially with the number of particles. This is because in a classical system, describing the state of each individual component is enough to describe the system. However, in quantum computing, this is not enough; you must also describe \textit{entangled states}, which cannot be described solely by their individual components. Additionally, there is no known classical metaphor for these entangled states, and the inability to efficiently describe these states on a classical computer is what makes quantum computers so powerful.
+
+\subsection{Quantum State Spaces}
+
+\begin{align*}
+\begin{tabular}{ | l | c | }
+  \hline			
+  System Type & Dimensions of Vector Space \\ \hline
+  Classical & $2n$ \\
+  Quantum & $2^n$ \\
+  \hline  
+\end{tabular}
+\end{align*}
+
+
 \end{document}

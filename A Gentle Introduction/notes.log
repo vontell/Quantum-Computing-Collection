@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 AUG 2016 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 AUG 2016 22:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1158,23 +1158,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--91
 [2] [3] [4] 
 AED: lastpage setting LastPage
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 192.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 192.
  (./notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 192.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 192.
 Package rerunfilecheck Info: File `notes.out' has not changed.
-(rerunfilecheck)             Checksum: 59A93AF392474856B59A36AFB88F98AD;286.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
+(rerunfilecheck)             Checksum: 855F01DC57860A43EB14E9ADBA22AB47;409.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 192.
  ) 
 Here is how much of TeX's memory you used:
- 17442 strings out of 493089
- 317307 string characters out of 6134842
- 388362 words of memory out of 5000000
- 20548 multiletter control sequences out of 15000+600000
+ 17446 strings out of 493089
+ 317357 string characters out of 6134842
+ 388365 words of memory out of 5000000
+ 20550 multiletter control sequences out of 15000+600000
  37999 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,54p,1786b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,14n,54p,1786b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/l
 ocal/texlive/2015/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
@@ -1188,10 +1188,10 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on notes.pdf (5 pages, 166052 bytes).
+Output written on notes.pdf (5 pages, 168196 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 52 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
