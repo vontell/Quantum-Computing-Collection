@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  26 JUL 2016 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  5 AUG 2016 20:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1158,14 +1158,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--91
 [2] [3] [4] 
 AED: lastpage setting LastPage
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 174.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 174.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
  (./notes.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 174.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 174.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `notes.out' has not changed.
 (rerunfilecheck)             Checksum: 59A93AF392474856B59A36AFB88F98AD;286.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 174.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
  17442 strings out of 493089
@@ -1188,7 +1188,7 @@ texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/tex-gyre/qtmb.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on notes.pdf (5 pages, 164356 bytes).
+Output written on notes.pdf (5 pages, 166052 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams

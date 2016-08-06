@@ -160,7 +160,7 @@ Given a polaroid A with polarization $|v_A\rangle = |\rightarrow\rangle$, B with
 
 \paragraph{Problem 7} For each state, describe all orthonormal bases that include that state.
 \begin{enumerate}[a)] % a), b), c), ...
-\item $\frac{1}{\sqrt{2}}(|0\rangle + i|1\rangle) \rightarrow$
+\item $\frac{1}{\sqrt{2}}(|0\rangle + i|1\rangle) \rightarrow$ This state is the same state as $|i\rangle$, so an appropriate basis would be $\{|i\rangle,|-i\rangle\}$
 \item $\frac{1+i}{2}|0\rangle - \frac{1-i}{2}|1\rangle \rightarrow$
 \item $\frac{1}{\sqrt{2}}(|0\rangle + e^{i\pi/6}|1\rangle) \rightarrow$
 \item $\frac{1}{2}|+\rangle - \frac{i\sqrt{3}}{2}|-\rangle \rightarrow$
@@ -169,6 +169,7 @@ Given a polaroid A with polarization $|v_A\rangle = |\rightarrow\rangle$, B with
 \paragraph{Problem 8} Alice is confused. She understands that $|1\rangle$ and $-|1\rangle$ represent the same state. But she does not understand why that does not imply that $\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$ would be the same state. Can you help her out?\\
 In the first case, the two states differ only by a global phase, and since the global phase has no physical meaning, the states are indistinguishable in nature and are equivalent. However, in the second case, the two states differ by a \textit{relative phase}, meaning that the two states would have different angles when represented in the complex plane, and as such are therefore indistinguishable. This relative phase is what causes $\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$ and $\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$ to be different states.
 
-\paragraph{Problem 9} In the BB84 protocol, how many bits do Alice and Bob need to compare to have a 90\% chance of detecting Eve's presence?
+\paragraph{Problem 9} In the BB84 protocol, how many bits do Alice and Bob need to compare to have a 90\% chance of detecting Eve's presence?\\
+For each bit that Alice and Bob compare, there is a 75\% chance that they do not see a wrong bit. They want to get the probability of seeing these matching bits given Eve eavesdropped to less than 10\%. Therefore, we have $0.75^x<0.10$, where $x$ is the number of bits to compare, leaving a final solution of about $8.00392$ bits needed to detect Eve's presence with 90\% confidence (so in practice, $9$ bits).
 
 \end{document}
