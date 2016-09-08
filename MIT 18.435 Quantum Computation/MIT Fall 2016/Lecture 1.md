@@ -6,11 +6,11 @@ This course is about quantum computers (duh)!
 
 ## Quantum Mechanics
 
-- The **Mathematical Formalism ** for quantum mechanics was developed around 1925 by _Schrodinger _ and _Heisenberg_ 
+- The **Mathematical Formalism** for quantum mechanics was developed around 1925 by _Schrodinger_ and _Heisenberg_ 
 - However, even before that, work had been done in the field by Planck
 - They realized that particles/quanta exist, and have wave-like properties (such as frequency)
 - They also learned that physics on a small scale is probablistic **and** destructive
-- The lecture emphasized the fact that we need to trust our intuition, and that it is ear impossible for humans at our developemental stages to fully understand the nature of quantum mechanics. Many great quantum physicists themselves don't even fully believe in quantum mechanics.
+- The lecture emphasized the fact that we need to trust our intuition, and that it is near impossible for humans at our developemental stages to fully understand the nature of quantum mechanics. Many great quantum physicists themselves don't even fully believe in quantum mechanics.
 -  **Hilbert Space -** A complete vector space equipped with an inner product. This gets complicated with infinite dimensions, but we will be working in finite dimensions, so this is not so horrible.
 - A wave function will describe the probability that a particle is at a certain location:
 
