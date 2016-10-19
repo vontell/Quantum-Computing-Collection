@@ -9,3 +9,5 @@ The following is a list of links and articles that are interesting / useful to r
 ## Interesting Papers
 
 [Room temperature manipulation of long lifetime spins in metallic-like carbon nanospheres (Nature)](http://www.nature.com/ncomms/2016/160718/ncomms12232/full/ncomms12232.html)
+
+[A Practical Quantum Instruction Set Architecture](https://arxiv.org/pdf/1608.03355.pdf)
