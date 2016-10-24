@@ -11,3 +11,7 @@ The following is a list of links and articles that are interesting / useful to r
 [Room temperature manipulation of long lifetime spins in metallic-like carbon nanospheres (Nature)](http://www.nature.com/ncomms/2016/160718/ncomms12232/full/ncomms12232.html)
 
 [A Practical Quantum Instruction Set Architecture](https://arxiv.org/pdf/1608.03355.pdf)
+
+[Quantum theory, the Church-Turing principle and the universal quantum computer](http://rspa.royalsocietypublishing.org/content/royprsa/400/1818/97.full.pdf)
+
+[Photonic Architecture for Scalable Quantum Information Processing in Diamond](http://journals.aps.org/prx/pdf/10.1103/PhysRevX.4.031022)
