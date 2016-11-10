@@ -15,3 +15,5 @@ The following is a list of links and articles that are interesting / useful to r
 [Quantum theory, the Church-Turing principle and the universal quantum computer](http://rspa.royalsocietypublishing.org/content/royprsa/400/1818/97.full.pdf)
 
 [Photonic Architecture for Scalable Quantum Information Processing in Diamond](http://journals.aps.org/prx/pdf/10.1103/PhysRevX.4.031022)
+
+[ADVANCING QUANTUM INFORMATION SCIENCE: NATIONAL CHALLENGES AND OPPORTUNITIES](http://walsworth.physics.harvard.edu/publications/2016_QIS_report.pdf)
