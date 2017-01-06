@@ -17,3 +17,6 @@ The following is a list of links and articles that are interesting / useful to r
 [Photonic Architecture for Scalable Quantum Information Processing in Diamond](http://journals.aps.org/prx/pdf/10.1103/PhysRevX.4.031022)
 
 [Advancing Quantum Information Science: National Challenges and Opportunities](http://walsworth.physics.harvard.edu/publications/2016_QIS_report.pdf)
+
+## Interesting Notes
+[Quantum Algorithms for Linear Algebra and Machine Learning](http://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2014-211.pdf)
