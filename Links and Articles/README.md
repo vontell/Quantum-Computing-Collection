@@ -18,5 +18,8 @@ The following is a list of links and articles that are interesting / useful to r
 
 [Advancing Quantum Information Science: National Challenges and Opportunities](http://walsworth.physics.harvard.edu/publications/2016_QIS_report.pdf)
 
+[Heralded entanglement between solid-state qubits
+separated by three metres](http://www.nature.com/nature/journal/v497/n7447/pdf/nature12016.pdf)
+
 ## Interesting Notes
 [Quantum Algorithms for Linear Algebra and Machine Learning](http://digitalassets.lib.berkeley.edu/techreports/ucb/text/EECS-2014-211.pdf)
